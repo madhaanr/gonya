@@ -1,8 +1,10 @@
 import {Component} from 'angular2/core';
+import {ImageFormComponent} from './image-form.component';
 
 @Component({
     selector: 'my-app',
-    template: '<h1>{{title}}</h1><h2>{{hero}} details!</h2>'
+    template: '<image-form></image-form>',
+    directives: [ImageFormComponent]
 })
 export class AppComponent { 
 }
