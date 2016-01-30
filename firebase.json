@@ -1,0 +1,12 @@
+{
+  "firebase": "gonya",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "node_modules/**",
+    "tsconfig.json",
+    "package.json",
+    "README.md"
+  ]
+}
